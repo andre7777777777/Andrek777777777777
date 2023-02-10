@@ -36,8 +36,8 @@ def load_config(path: str = None):
 
     return Config(
         tg_bot=TgBot(
-            token=env.str("BOT_TOKEN"),
-            admin_ids=list(map(int, env.list("ADMINS"))),
+            token=env.str("6283952882:AAFMZ5iNb5C_BVShZDO36IDNqCU9c-AQEnI"),
+            admin_ids=list(map(int, env.list("5902291287"))),
             use_redis=env.bool("USE_REDIS"),
         ),
         db=DbConfig(
